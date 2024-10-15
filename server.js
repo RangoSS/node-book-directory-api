@@ -1,13 +1,16 @@
-// server.js
 const express = require('express');
-const bodyParser = require('body-parser');
+const cors = require('cors');
+const bodyParser = require('body-parser'); // Optional if you use express.json()
 const booksRouter = require('./routes/books');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // Middleware
-app.use(bodyParser.json());
+app.use(cors());
+app.use(express.json()); // Parses JSON request bodies
+
+// Routes
 app.use('/api/books', booksRouter);
 
 // Start the server

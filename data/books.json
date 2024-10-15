@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "title": "New Book Title",
+    "author": "Author Name",
+    "publisher": "Publisher Name",
+    "publishedDate": "2023-01-01",
+    "ISBN": "1234567890123"
+  },
+  {
+    "title": "Sample Book",
+    "author": "John Doe",
+    "publisher": "Example Publisher",
+    "publishedDate": "2024-10-15",
+    "ISBN": "1234567890123"
+  },
+  {
+    "title": "Sample Book",
+    "author": "John Doe",
+    "publisher": "Example Publisher",
+    "publishedDate": "2024-10-15",
+    "ISBN": "1234567890123"
+  },
+  {
+    "title": "Sample Book",
+    "author": "John Doe",
+    "publisher": "Example Publisher",
+    "publishedDate": "2024-10-15",
+    "ISBN": "1234567890123"
+  }
+]
